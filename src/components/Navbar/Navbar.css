@@ -1,0 +1,58 @@
+.NavbarItems
+{
+    background-color: #6b705c;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.navbar-logo
+{
+    font-size: 1.5rem;
+    margin-top: 13px;
+    margin-left: -650px;
+}
+
+.menu-icon
+{
+    font-size: 2rem;
+    margin-left: 100px;
+}
+
+.my-items
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+ul
+{
+    list-style: none;
+}
+
+.nav-ele
+{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-right: 20px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    transition: background-color 0.5s, color 0.5s;
+    -webkit-transition: background-color 0.5s, color 0.5s;
+    -moz-transition: background-color 0.5s, color 0.5s;
+    -ms-transition: background-color 0.5s, color 0.5s;
+    -o-transition: background-color 0.5s, color 0.5s;
+}
+
+.nav-ele:hover
+{
+    background-color: #535747;
+    color: #faf4ef;
+}
